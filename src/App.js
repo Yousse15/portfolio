@@ -1,11 +1,13 @@
 
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
-    <h2>  lesgooo </h2>
-
+    <Navbar>
+      
+    </Navbar>
   );
 }
 export default App;
